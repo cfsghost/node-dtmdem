@@ -8,7 +8,7 @@ var parser = dtmdem.load([
 
 parser.setOrigin(119.308286, 21.681677, 100);
 parser.on('data', function(line) {
-	console.log(line);
+	console.log(line.area);
 });
 
 parser.on('end', function() {
