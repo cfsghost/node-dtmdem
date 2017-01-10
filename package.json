@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cfsghost/node-dtmdem/issues"
   },
-  "homepage": "https://github.com/cfsghost/node-dtmdem#readme"
+  "homepage": "https://github.com/cfsghost/node-dtmdem#readme",
+  "dependencies": {
+    "twd97-to-latlng": "^1.0.0"
+  }
 }

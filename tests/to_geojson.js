@@ -6,7 +6,7 @@ var parser = dtmdem.load([
 	'./dtm/94201092dem.grd'
 ]);
 
-parser.setOrigin(119.308286, 21.681677, 100);
+parser.setGridSize(100);
 parser.on('data', function(line) {
 	console.log(line.area);
 });
