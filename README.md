@@ -22,8 +22,8 @@ var parser = dtmdem.load([
 	'./dtm/94201092dem.grd'
 ]);
 
-// Set origin X, Y and cell size
-parser.setOrigin(119.308286, 21.681677, 100);
+// Set cell size
+parser.setGridSize(100);
 parser.on('data', function(line) {
 	console.log(line);
 });
