@@ -8,7 +8,7 @@ var parser = dtmdem.load([
 
 parser.setGridSize(100);
 parser.on('data', function(line) {
-	console.log(line.area);
+	console.log(line);
 });
 
 parser.on('end', function() {
