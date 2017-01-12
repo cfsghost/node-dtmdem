@@ -1,6 +1,6 @@
 {
   "name": "dtmdem",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Digital elevation model parser",
   "main": "./lib/dtmdem.js",
   "scripts": {
